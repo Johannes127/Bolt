@@ -11,21 +11,30 @@ header img{
 }
 
 body{	
+	background-color: cornsilk;
 	margin: 0;
 	line-height: 30px;
 }
 
+.animate{
+	content: hidden;
+	animation: animate 10s steps(4) infinite;
+	content: hidden;
+
+}
+
 main{
-	
-	margin: 0 auto;
+	content: hidden;
+	margin: 100px;
 	background-color: cornsilk;
+	animation: This is Bolt 10s steps(4) infinite;
 	text-align: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 main img{
-	
 	text-align: center;
 	max-width: 100%;
 }
@@ -39,9 +48,34 @@ p{
 	text-align: center;
 }
 
+h2.me{
+	font-style: italic;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+img.pic{
+	max-width: 50%;
+}
+
 p.caption{
 	font-style: italic;
 	text-align: center;
 	margin-top: 0;
 }
 
+
+
+ol{
+	text-align: left;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.Friends{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	text-size-adjust: 30px;
+}
