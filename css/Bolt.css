@@ -79,3 +79,9 @@ ol{
 	font-style: italic;
 	text-size-adjust: 30px;
 }
+
+ul {
+	text-align: left;
+	font-size: 30px;
+	margin-left: 10px;
+}
