@@ -11,6 +11,21 @@ body{
     background-color: 	#c0cfb2;
 }
 
+.pic-1{
+    image-orientation: left;
+    text-align: left;
+    text-decoration: solid;
+    width: 200px;
+    height: auto;
+    text-align: right;   
+}
+
+.pic-2{
+    text-align: right;
+    align-items: right;
+    width: 200px;
+}
+
 .game-container{
    width: 450px;
    height: 450px;
